@@ -10,7 +10,7 @@ DATABASE_PASSWORD=\$ADMIN_PASSWORD
 RABBIT_PASSWORD=\$ADMIN_PASSWORD
 SERVICE_PASSWORD=\$ADMIN_PASSWORD
 #Use if needed: FLOATING_RANGE="192.168.43.72/29"
-#Use if needed: Q_FLOATING_ALLOCATION_POOL=start=192.168.43.73,end=192.168.43.78
+#Use if needed: Q_FLOATING_ALLOCATION_POOL=start=192.168.43.74,end=192.168.43.78
 EOT
 echo "Copy-paste this to install: git clone https://git.openstack.org/openstack-dev/devstack; cp ~/local.conf ~/devstack/; cd ~/devstack/; ./stack.sh"
 su - stack
